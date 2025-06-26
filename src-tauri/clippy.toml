@@ -1,0 +1,2 @@
+# Customize linting rules
+cognitive-complexity-threshold = 30
