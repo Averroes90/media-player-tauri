@@ -12,11 +12,18 @@
   "app": {
     "windows": [
       {
-        "title": "media-player-tauri",
-        "width": 800,
-        "height": 600,
+        "title": "Tauri MPV Media Player",
+        "width": 1400,
+        "height": 900,
+        "x": 1920,
+        "y": 100,
+        "center": false,
         "resizable": true,
-        "fullscreen": false
+        "fullscreen": false,
+        "minWidth": 800,
+        "minHeight": 600,
+        "focus": false,
+        "visible": true
       }
     ],
     "security": {

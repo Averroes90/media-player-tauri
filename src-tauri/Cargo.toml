@@ -28,6 +28,10 @@ tauri-plugin-log = "2"
 libmpv-sys = "3.1"
 raw-window-handle = "0.6"
 
+# Window handling for native rendering
+cocoa = "0.26" # macOS window APIs
+objc = "0.2"   # Objective-C runtime for macOS
+
 [features]
 # This feature is used for production builds or when a dev server is not specified, DO NOT REMOVE!!
 custom-protocol = ["tauri/custom-protocol"]
